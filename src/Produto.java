@@ -1,7 +1,7 @@
 public class Produto {
 
-    String nome;
-    double preco;
+    private String nome;
+    private double preco;
 
     public Produto(String nome, double preco) {
         this.nome = nome;
@@ -23,4 +23,9 @@ public class Produto {
          Isso acontece porque a classe Produto não possui
          o método toString() sobrescrito.
         */
+
+    @Override
+    public String toString() {
+        return "Produto{nome='" + nome + "', preco=" + preco + "}";
+    }
 }
