@@ -60,12 +60,17 @@ public class Livro {
 
   O ISBN é um identificador único para cada livro.
  Títulos podem ser iguais para livros diferentes ou
- podem variar entre edições e idiomas.
+ podem variar entre edições e idiomas.  */
 
+ /* exercico 7
+         Resultado esperado:
 
- */
+         Os hashCodes de l1 e l2 serão iguais,
+         pois possuem o mesmo ISBN.
 
-
+         Já o hashCode de l3 será diferente,
+         pois o ISBN é diferente.
+        */
 
 
     }
