@@ -6,13 +6,33 @@ public class Main {
         Produto p2 = new Produto("Mouse", 120.00);
         Produto p3 = new Produto("Caneta", 2.50);
         Produto p4= new Produto("Caderno", 12.90);
+        Livro l1 = new Livro("Clean Code", "978-0132350884");
+        Livro l2 = new Livro("Clean Code", "978-0132350884");
+        Livro l3 = new Livro("Clean Code", "978-0132350884");
+        Livro l4 = new Livro("Código Limpo", "978-0132350884");
 
+        System.out.println("======================");
         System.out.println(p1);
         System.out.println(p2);
+        System.out.println("Item: " + p1);
+        System.out.println("======================");
+
         System.out.println(p3);
         System.out.println(p4);
+        System.out.println("======================");
 
-        System.out.println("Item: " + p1);
+        System.out.println(l1 == l4);
+        System.out.println(l1.equals(l4));
+        System.out.println("======================");
+
+        System.out.println(l1.equals(l2));
+
+        System.out.println(l1.equals(null));
+
+        System.out.println(l1.equals("Java"));
+
+
+
 
         /* exercico 1
           O que aparece?
