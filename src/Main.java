@@ -4,12 +4,20 @@ public class Main {
 
         Produto p1 = new Produto("Notebook", 3500.00);
         Produto p2 = new Produto("Mouse", 120.00);
+
         Produto p3 = new Produto("Caneta", 2.50);
         Produto p4= new Produto("Caderno", 12.90);
-        Livro l1 = new Livro("Clean Code", "978-0132350884");
-        Livro l2 = new Livro("Clean Code", "978-0132350884");
-        Livro l3 = new Livro("Clean Code", "978-0132350884");
-        Livro l4 = new Livro("Código Limpo", "978-0132350884");
+
+        Livro l1 = new Livro("hora de aventura", "978-0132350884");
+        Livro l2 = new Livro("enrolados ", "978-0132350884");
+
+        Livro l3 = new Livro("mar", "978-0132350884");
+        Livro l4 = new Livro("furacão", "978-0132350884");
+
+        Livro l5 = new Livro("oceano", "978-0132350884");
+        Livro l6 = new Livro("rio verde", "978-0132350884");
+        Livro l7 = new Livro("sapato", "978-0134685991");
+
 
         System.out.println("======================");
         System.out.println(p1);
@@ -26,10 +34,16 @@ public class Main {
         System.out.println("======================");
 
         System.out.println(l1.equals(l2));
-
         System.out.println(l1.equals(null));
-
         System.out.println(l1.equals("Java"));
+        System.out.println("======================");
+
+        System.out.println("Hash l1: " + l1.hashCode());
+        System.out.println("Hash l2: " + l2.hashCode());
+        System.out.println("l1.equals(l2): " + l1.equals(l2));
+        System.out.println();
+        System.out.println("Hash l3: " + l3.hashCode());
+
 
 
 

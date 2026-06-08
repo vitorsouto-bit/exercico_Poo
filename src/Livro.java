@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Livro {
 
     private String titulo;
@@ -20,6 +22,11 @@ public class Livro {
         Livro outro = (Livro) obj;
 
         return this.isbn.equals(outro.isbn);
+    }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(isbn);
 
 
 
@@ -62,4 +69,5 @@ public class Livro {
 
 
     }
-}
+
+        }
